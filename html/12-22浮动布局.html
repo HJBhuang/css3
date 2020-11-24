@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>布局</title>
+    <style>
+        div#header{
+            border: aquamarine solid 1px;
+        }
+
+        /*div#wrapper{
+            float: left;
+            width: 100%;
+            margin-left: -200px;
+        }*/
+
+        div#content{
+            margin-left: 200px;
+            border: black solid 1px;
+        }
+
+        div#navigation{
+            float: right;
+            width: 200px;
+            border: aquamarine solid 1px;
+        }
+
+        div#extra{
+            float: right;
+            clear: right;
+            width: 200px;
+            border: aquamarine solid 1px;
+        }
+
+        div#footer{
+            clear: both;
+            width: 100%;
+            border: aquamarine solid 1px;
+        }
+    </style>
+<body>
+<div id="container">
+    <div id="header">
+        <h1>页眉区域</h1>
+    </div>
+
+    <div id="=wrapper" style="float: left;width: 99%;margin-left: -200px;border: red solid 1px">
+        <div id="content">
+            <p>
+                <strong>主体内容区域</strong>
+            </p>
+        </div>
+    </div>
+
+    <div id="navigation">
+        <p>
+            <strong>导航栏</strong>
+        </p>
+    </div>
+
+    <div id="extra">
+        <p>
+            <strong>其他栏目</strong>
+        </p>
+    </div>
+
+    <div id="footer">
+        <p>页脚区域</p>
+    </div>
+</div>
+</body>
+</html>
+</head>

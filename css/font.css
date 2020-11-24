@@ -1,0 +1,47 @@
+#header h1{
+    font-size: 18px;
+    color: blue;
+    /*设置字体*/
+    font-family: 华文行楷;
+}
+
+#header{
+    font-size: 18px;
+    color: blue;
+    /*设置字体*/
+    font-family: 华文行楷;
+    text-align: center;
+    /*设置字体粗细*/
+    font-weight: bold;
+    /*设置字体倾斜效果*/
+    font-style: italic;
+
+    text-decoration: blink;
+}
+
+#one{
+    font-size: 18px;
+    color: blue;
+    /*设置字体*/
+
+    /*首字母大写*/
+    text-transform: capitalize;
+}
+
+#two{
+    font-size: 18px;
+    color: blue;
+    /*设置字体*/
+
+    /*全部大写*/
+    text-transform: uppercase;
+}
+
+#three{
+    font-size: 18px;
+    color: blue;
+    /*设置字体*/
+
+    /*全部小写*/
+    text-transform: lowercase;
+}
